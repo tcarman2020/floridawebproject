@@ -1,0 +1,116 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+		font-size: 9pt;
+		position: bottom;
+		background: black;
+		color: white;
+		width: 100%;
+		text-align: right;
+}
+footer a {
+		color: #5c82a3;
+}
+body {
+		margin: 0;
+}
+img {
+		width: 100%;
+}
+header {
+		background: #0099ff;
+		color: white;
+		text-align: center;
+		margin-top: 0;
+}
+h1 {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 45pt;
+}
+h3 {
+		margin-top: 5px;
+		margin-bottom: 0;
+		padding-bottom: 5px;
+}
+nav {
+		text-align: center;
+		background-color: #404040;
+		margin: 0;
+		padding: 10px;
+}
+nav a {
+		text-decoration: none;
+		color: white;
+		padding: 10px;
+}
+nav a:hover {
+		background-color: #009933;
+		color: #404040;
+}
+nav a.active {
+		color: white;
+		background-color: black;
+}
+aside a {
+		color: white;
+}
+aside a:visited {
+		color: white;
+}
+.container {
+		position: relative;
+}
+.text-block {
+		font-size: 14pt;
+		max-width: 800px;
+		position: absolute;
+		top: 75px;
+		right: 16px;
+		background-color: rgba(0, 0, 0, 0.3);
+		color: white;
+		padding-left: 5px;
+		padding-right: 5px;
+}
+.form-block {
+		width: 350px;
+		text-align: center;
+		float: right;
+		color: white;
+		background-color: rgba(0, 0, 0, 0.3);
+		position: absolute;
+		bottom: 100px;
+		right: 100px;
+}
+input {
+		width: 300px;
+}
+.submit {
+		width: 35%;
+}
+#textarea {
+		height: 100px;
+}
+.formtext {
+		text-align: center;
+		max-width: 200px;
+		color: black;
+		position: absolute;
+		bottom: 200px;
+		right: 475px;
+		border-style: dotted;
+		padding-top: 25px;
+		padding-bottom: 25px;
+}
+#column {
+		float: left;
+		width: 33.33%;
+		padding: 5px 10px 5px 10px;
+}
+#row {
+		display: flex;
+}
+table {
+		text-align: center;
+}
